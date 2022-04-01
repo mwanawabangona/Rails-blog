@@ -1,24 +1,51 @@
-# README
+# Rails Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project we will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
-Things you may want to cover:
+## Built With
+- Ruby on Rails
 
-* Ruby version
+## Technologies used
+- Github
+- Gitflow
+- Visual Studio Code
+- Rubocop
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project by the command: 
 
-* Database creation
+```
+$ git clone https://github.com/mwanawabangona/Rails-blog.git
+```
 
-* Database initialization
+- Run `bundle install` or `bundle i` to install the dependencies
+- Run `rails s` to run the code!
+- Run `rubocop` to find and fix linters
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 Ellis Ngona
 
-* ...
+- GitHub: [https://github.com/mwanawabangona]
+- Twitter: [https://twitter.com/ellis_ahh]
+- LinkedIn: [https://www.linkedin.com/in/ellisngons]
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
