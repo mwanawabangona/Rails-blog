@@ -4,6 +4,6 @@ class User < ApplicationRecord
   has_many :likes, foreign_key: 'users_id'
 
   def recent_posts
-    posts.order("created_at DESC").limit(3)
+    posts.order('created_at DESC').limit(3)
   end
 end
