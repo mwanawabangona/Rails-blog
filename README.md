@@ -1,4 +1,4 @@
-# Rails-blog
+# Blog app
 
 In this project we will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command: 
 
 ```
-$ git clone https://mwanawabangona/Rails-blog.git
+$ git clone https://github.com/Chimwemwe-127001/blog-app.git
 ```
 
 - Run `bundle install` or `bundle i` to install the dependencies
@@ -28,11 +28,11 @@ $ git clone https://mwanawabangona/Rails-blog.git
 
 ## Authors
 
-👤 Ellis ngona
+👤 Chimwemwe Sinyinza
 
-- GitHub: [https://github.com/mwanawabangona)]
-- Twitter: [https://twitter.com/ellis_ahh)]
-- LinkedIn: [https://www.linkedin.com/in/ellis-ngona]
+- GitHub: [https://github.com/Chimwemwe-127001)]
+- Twitter: [https://twitter.com/chimwewme)]
+- LinkedIn: [https://www.linkedin.com/in/chimwewme-sinyinza/]
 
 ## 🤝 Contributing
 
