@@ -31,7 +31,7 @@ RSpec.describe 'Show User page', type: :system do
       end
       click_button 'Log in'
       name = find_all('h1')
-      name[2].click
+      name[1].click
       expect(page).to have_content('Chimwemwe')
       expect(page).to have_content('Software Developer from Zambia')
     end
@@ -44,7 +44,7 @@ RSpec.describe 'Show User page', type: :system do
       end
       click_button 'Log in'
       name = find_all('h1')
-      name[2].click
+      name[1].click
       expect(page).to have_content('Number of posts: 3')
     end
 
@@ -56,9 +56,9 @@ RSpec.describe 'Show User page', type: :system do
       end
       click_button 'Log in'
       name = find_all('h1')
-      name[2].click
+      name[1].click
 
-      expect(page).to have_current_path('/users/18')
+      expect(page).to have_current_path('/users/30')
     end
 
     it 'show the 3 first posts and view all posts button' do
@@ -69,7 +69,7 @@ RSpec.describe 'Show User page', type: :system do
       end
       click_button 'Log in'
       name = find_all('h1')
-      name[2].click
+      name[1].click
       expect(page).to have_content('post 1')
       expect(page).to have_content('post 2')
       expect(page).to have_content('post 3')

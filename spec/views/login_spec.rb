@@ -18,7 +18,6 @@ RSpec.describe 'Login Page', type: :system do
     end
     it 'shows the right content' do
       visit user_session_path
-      sleep(5)
       click_button 'Log in'
       expect(page).to have_field('Email')
       expect(page).to have_field('Password')
@@ -29,7 +28,6 @@ RSpec.describe 'Login Page', type: :system do
 
     it 'Test for wrong input' do
       visit new_user_session_path
-      sleep(5)
       within('#new_user') do
         fill_in 'Email', with: 'sinyinzachimwemwe@gmail.com'
         fill_in 'Password', with: '12345678'
@@ -40,12 +38,12 @@ RSpec.describe 'Login Page', type: :system do
 
     it 'Test for right input' do
       visit new_user_session_path
-      sleep(5)
       within('#new_user') do
-        fill_in 'Email', with: 'daniel1@hotmail.com'
-        fill_in 'Password', with: '123456'
+        fill_in 'Email', with: 'sinyinzachimwemwe@gmail.com'
+        fill_in 'Password', with: '1234567'
       end
       click_button 'Log in'
+      sleep(5)
       expect(page).to have_current_path(root_path)
     end
   end
